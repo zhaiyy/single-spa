@@ -1,0 +1,16 @@
+{
+  "entrypoints": { 
+    "app": {
+      "chunks": [
+        "chunk-vendors",
+        "app"
+      ],
+      "assets": [
+        "./js/chunk-vendors.js",
+        "./js/app.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  }
+}
