@@ -14,10 +14,10 @@ const vueOptions = {
 // new Vue().$mount('#app')
 
 /**** 添加这里 ****/
-/* if (!window.singleSpaNavigate) { // 如果不是single-spa模式
+if (!window.singleSpaNavigate) { // 如果不是single-spa模式
   delete vueOptions.el;
   new Vue(vueOptions).$mount('#app');
-} */
+}
 /**** 结束 ****/
 
 // singleSpaVue包装一个vue微前端服务对象

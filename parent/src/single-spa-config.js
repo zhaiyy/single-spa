@@ -54,7 +54,7 @@ singleSpa.registerApplication( //注册微前端服务
     location => location.pathname.startsWith('/vue-antd') // 配置微前端模块前缀
 );
 
-/* singleSpa.registerApplication(
+singleSpa.registerApplication(
     'elementVue',
     async () => {
         if (process.env.NODE_ENV === 'development') {
@@ -70,7 +70,7 @@ singleSpa.registerApplication( //注册微前端服务
         }
     },
     location => location.pathname.startsWith('/vue-element')
-); */
+);
 
 
 singleSpa.start(); // 启动
